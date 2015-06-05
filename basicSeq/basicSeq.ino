@@ -10,8 +10,8 @@ int led = 13; //builtin
 
 void setup() {
   // put your setup code here, to run once:
-  timeBetweenSteps = 1000;
-  timeForEachStep = 1000;
+  timeBetweenSteps = 75;
+  timeForEachStep = 75;
   step = 0;
   pinMode(led, OUTPUT);
   Serial.begin(9600);
